@@ -1,6 +1,6 @@
 # React Component Collection
 
-[GitHub Repo](https://github.com/ZSturman/React-Component-Collection)
+[Use it here](https://react-component-collection-delta.vercel.app/)
 
 This repo is a growing collection of React components designed to enhance the development of your applications. 
 
