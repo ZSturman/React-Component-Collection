@@ -106,7 +106,7 @@ const Wizard: React.FC = () => {
   return (
     <div className="flex flex-col h-full ">
       <div className="flex flex-row h-full">
-        <div className="h-full items-center justify-center">
+        <div className="h-full items-center justify-center my-auto">
           {renderProgress()}
         </div>
 

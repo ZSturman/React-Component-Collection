@@ -5,6 +5,17 @@ type PrevValuesProps = {
 };
 
 const PrevValues: React.FC<PrevValuesProps> = ({ prevInputs }) => {
+
+    if (prevInputs.length === 0) {
+        return (
+            <div className="mt-8">
+                <h2 className="italic">Submit data in the form and see the state of previous submissions saved here</h2>
+            </div>
+
+        )
+    }
+
+
     return (
         <div className="mt-8">
             <div className="overflow-x-auto">
