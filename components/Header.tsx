@@ -20,7 +20,10 @@ const Header = () => {
             target="_blank"
             className="flex flex-row items-center  gap-4"
           >
-            <h1>A React Component Collection by Zachary Sturman</h1>
+            <h1>
+              A React Component Collection
+              <span className="hidden md:inline">by Zachary Sturman</span>
+            </h1>
             <BiSolidDog />
           </Link>
         </div>

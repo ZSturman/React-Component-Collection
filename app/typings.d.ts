@@ -10,4 +10,5 @@ type InputData = {
     name: string;
     link: string;
     thumbnail: string;
+    description: string;
   }

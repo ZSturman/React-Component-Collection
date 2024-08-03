@@ -9,7 +9,8 @@ const ComponentItem: React.FC<ComponentItemProps> = ({
   componentsToDisplay,
 }) => {
   return (
-    <Link href={componentsToDisplay.link} className="group">
+    <div className="flex flex-col text-center relative group max-w-min min-w-[400px]">
+    <Link href={componentsToDisplay.link} >
       <div className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform group-hover:scale-105">
         <div className="p-4 text-center">
           <h3 className="font-semibold">{componentsToDisplay.name}</h3>
@@ -24,7 +25,12 @@ const ComponentItem: React.FC<ComponentItemProps> = ({
           />
         </div>
       </div>
+      <div>
+        <p className="text-sm text-gray-500 text-wrap mt-1">{componentsToDisplay.description}</p>
+      </div>
     </Link>
+
+    </div>
   );
 };
 
